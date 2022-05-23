@@ -1,0 +1,19 @@
+/* 
+  Localizable.strings
+  Common
+
+  Created by Enygma System on 23/05/22.
+  
+*/
+
+"home_title" = "Game RAWG";
+"search_game" = "Cari Game";
+"open_website" = "Buka Situs";
+"favorite_title" = "Favorit";
+"empty_favorite" = "Kamu tidak menyukai apapun!";
+"profile_title" = "Profil";
+"follow_me" = "Ikuti Aku :";
+"add_favorite" = "Tambahkan ke Favorit";
+"del_favorite" = "Hapus dari Favorit";
+"yes" = "Ya";
+"no" = "Tidak";

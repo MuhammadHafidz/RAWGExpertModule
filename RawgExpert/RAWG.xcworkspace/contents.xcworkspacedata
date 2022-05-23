@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:RawgExpert.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../Modules/Common/Common.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../Modules/Home/Home.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../Modules/Profile/Profile.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../Modules/Detail/Detail.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../Modules/Favorite/Favorite.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../Modules/GameDomain/GameDomain.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../Modules/GameRepository/GameRepository.xcodeproj">
+   </FileRef>
+</Workspace>

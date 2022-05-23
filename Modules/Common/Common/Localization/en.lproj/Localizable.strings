@@ -1,0 +1,20 @@
+/* 
+  Localizable.strings
+  Common
+
+  Created by Enygma System on 23/05/22.
+  
+*/
+
+
+"home_title" = "RAWG Games";
+"search_game" = "Search Game";
+"open_website" = "Open Website";
+"favorite_title" = "Favorite";
+"empty_favorite" = "You don't favorite anything";
+"profile_title" = "Profile";
+"follow_me" = "Follow Me :";
+"add_favorite" = "Add to Favorite";
+"del_favorite" = "Delete from Favorite";
+"yes" = "Yes";
+"no" = "No";

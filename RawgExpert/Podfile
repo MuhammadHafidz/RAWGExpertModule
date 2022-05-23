@@ -1,0 +1,96 @@
+# Uncomment the next line to define a global platform for your project
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '14.0'
+
+use_frameworks!
+
+workspace 'RAWG'
+
+target 'RawgExpert' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  # Pods for RawgExpert
+  
+  pod 'Alamofire'
+  pod 'RealmSwift'
+  pod 'RxSwift', '6.5.0'
+  pod 'RxCocoa', '6.5.0'
+  pod 'SDWebImage'
+  pod 'SDWebImageSwiftUI'
+  pod 'Swinject'
+  pod 'Core', :git => 'https://github.com/MuhammadHafidz/IOS-Base-Core.git'
+  
+  target 'RawgExpertTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
+
+target 'Common' do
+  project '../Modules/Common/Common'
+  pod 'SDWebImageSwiftUI'
+  pod 'Core', :git => 'https://github.com/MuhammadHafidz/IOS-Base-Core.git'
+end
+
+target 'Home' do
+  project '../Modules/Home/Home'
+  pod 'SDWebImageSwiftUI'
+  pod 'RxSwift', '6.5.0'
+  pod 'RxCocoa', '6.5.0'
+  pod 'Core', :git => 'https://github.com/MuhammadHafidz/IOS-Base-Core.git'
+end
+
+target 'Detail' do
+  project '../Modules/Detail/Detail'
+  pod 'SDWebImageSwiftUI'
+  pod 'RxSwift', '6.5.0'
+  pod 'RxCocoa', '6.5.0'
+  pod 'Core', :git => 'https://github.com/MuhammadHafidz/IOS-Base-Core.git'
+end
+
+target 'Favorite' do
+  project '../Modules/Favorite/Favorite'
+  pod 'SDWebImageSwiftUI'
+  pod 'RxSwift', '6.5.0'
+  pod 'RxCocoa', '6.5.0'
+  pod 'Core', :git => 'https://github.com/MuhammadHafidz/IOS-Base-Core.git'
+end
+
+target 'Profile' do
+  project '../Modules/Profile/Profile'
+  pod 'SDWebImageSwiftUI'
+  
+end
+
+target 'GameRepository' do
+  project '../Modules/GameRepository/GameRepository'
+  pod 'RxSwift', '6.5.0'
+  pod 'RxCocoa', '6.5.0'
+  pod 'RealmSwift'
+  pod 'Alamofire'
+  pod 'Core', :git => 'https://github.com/MuhammadHafidz/IOS-Base-Core.git'
+  target 'GameRepositoryTests' do
+    inherit! :search_paths
+    
+    pod 'RxSwift', '6.5.0'
+    pod 'Alamofire'
+    pod 'Core', :git => 'https://github.com/MuhammadHafidz/IOS-Base-Core.git'
+    # Pods for testing
+  end
+end
+
+target 'GameDomain' do
+  project '../Modules/GameDomain/GameDomain'
+  
+end
+
+post_install do |pi|
+    pi.pods_project.targets.each do |t|
+      t.build_configurations.each do |config|
+        config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '14.0'
+      end
+    end
+end
+
+
+

@@ -1,0 +1,70 @@
+PODS:
+  - Alamofire (5.6.1)
+  - Core (1.0.7):
+    - RealmSwift
+    - RxCocoa (~> 6.5.0)
+    - RxSwift (~> 6.5.0)
+  - Realm (10.26.0):
+    - Realm/Headers (= 10.26.0)
+  - Realm/Headers (10.26.0)
+  - RealmSwift (10.26.0):
+    - Realm (= 10.26.0)
+  - RxCocoa (6.5.0):
+    - RxRelay (= 6.5.0)
+    - RxSwift (= 6.5.0)
+  - RxRelay (6.5.0):
+    - RxSwift (= 6.5.0)
+  - RxSwift (6.5.0)
+  - SDWebImage (5.12.5):
+    - SDWebImage/Core (= 5.12.5)
+  - SDWebImage/Core (5.12.5)
+  - SDWebImageSwiftUI (2.0.2):
+    - SDWebImage (~> 5.10)
+  - Swinject (2.8.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - Core (from `https://github.com/MuhammadHafidz/IOS-Base-Core.git`)
+  - RealmSwift
+  - RxCocoa (= 6.5.0)
+  - RxSwift (= 6.5.0)
+  - SDWebImage
+  - SDWebImageSwiftUI
+  - Swinject
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - Realm
+    - RealmSwift
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SDWebImage
+    - SDWebImageSwiftUI
+    - Swinject
+
+EXTERNAL SOURCES:
+  Core:
+    :git: https://github.com/MuhammadHafidz/IOS-Base-Core.git
+
+CHECKOUT OPTIONS:
+  Core:
+    :commit: 5c07a073795f571c1ca181bb50d1e27d4d7deb92
+    :git: https://github.com/MuhammadHafidz/IOS-Base-Core.git
+
+SPEC CHECKSUMS:
+  Alamofire: 87bd8c952f9a4454320fce00d9cc3de57bcadaf5
+  Core: cf6f1141ebea47e489bbc4d0bf3edcb4a93163e9
+  Realm: 97bc2540088e1e88a4b2051ba4b8eac85be0039a
+  RealmSwift: 1bc3cbcb1681c5a9262df5883280123aa2d1d4cf
+  RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
+  RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+  SDWebImage: 0905f1b7760fc8ac4198cae0036600d67478751e
+  SDWebImageSwiftUI: 8a3923c95108312b03a599ec1498754af55a6819
+  Swinject: 97112918bd7e0785dc2df7036213f3c8cbba6586
+
+PODFILE CHECKSUM: a849f5ba03420e12a788a4a95ca69ebc352c499d
+
+COCOAPODS: 1.10.2
