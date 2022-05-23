@@ -36,4 +36,4 @@ jobs:
      - name: Run a test in RawgExpert
        run: |
           cd RawgExpert
-          xcodebuild test -workspace RAWG.xcworkspace -scheme RawgExpert -destination "platform=iOS Simulator,name=iPhone 11 Pro,OS=14.1"
+          xcodebuild test -workspace RAWG.xcworkspace -scheme RawgExpert -destination "platform=iOS Simulator,name=iPhone 11 Pro,OS=15.4"
