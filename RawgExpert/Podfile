@@ -21,6 +21,9 @@ target 'RawgExpert' do
   
   target 'RawgExpertTests' do
     inherit! :search_paths
+    pod 'RxSwift', '6.5.0'
+    pod 'Alamofire'
+    pod 'Core', :git => 'https://github.com/MuhammadHafidz/IOS-Base-Core.git'
     # Pods for testing
   end
 
