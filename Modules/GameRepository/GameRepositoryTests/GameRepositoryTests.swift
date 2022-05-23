@@ -26,7 +26,6 @@ class GameRepositoryTests: XCTestCase {
 
     func testExample() throws {
         let apiKey = API.apiKey()
-        
         XCTAssertEqual(apiKey, "bcb8da9abb7b45a4be84bfe1a191093f")
     }
     
