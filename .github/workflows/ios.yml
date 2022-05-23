@@ -27,7 +27,7 @@ jobs:
 
      # Runs a single command using the runners shell
      - name: Run a one-line script
-       run: sudo xcode-select -switch /Applications/Xcode_12.1.app && /usr/bin/xcodebuild -version
+       run: sudo xcode-select -switch /Applications/Xcode_13.2.0.app && /usr/bin/xcodebuild -version
      - name: Install Dependencies
        run: |
          cd RawgExpert
