@@ -38,6 +38,16 @@
                ReferencedContainer = "container:RawgExpert.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2409953528362364004C0E16"
+               BuildableName = "GameRepositoryTests.xctest"
+               BlueprintName = "GameRepositoryTests"
+               ReferencedContainer = "container:../Modules/GameRepository/GameRepository.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
